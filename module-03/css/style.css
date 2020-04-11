@@ -84,6 +84,7 @@ header {
 .knopka {
   text-align: center;
   padding-top: 54px;
+  padding-bottom: 54px;
 }
 
 .knopka-load:hover {
