@@ -1,3 +1,5 @@
+/* Navigation */
+
 body {
   background-color: white;
 }
@@ -9,8 +11,25 @@ body {
 
 .nav-li {
   display: inline-block;
+  margin-right: 100px;
 }
 
 .nav {
+  text-align: center;
+}
+
+/* Main */
+
+.article-item {
+  width: 420px;
+  display: inline-block;
+  margin-right: 56px;
+}
+
+.article-item:nth-child(even) {
+  margin-right: 0;
+}
+
+.knopka {
   text-align: center;
 }
