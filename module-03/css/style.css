@@ -2,10 +2,12 @@
 
 body {
   background-color: white;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
-  width: 900px;
+  width: 904px;
   margin: 0px auto;
 }
 
@@ -23,19 +25,26 @@ h2 {
 .nav-li {
   display: inline-block;
   margin-right: 100px;
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  padding-top: 70px;
+  padding-bottom: 103px;
 }
 
 .nav-li a {
   color: #626262;
   font-family: "Playfair Display";
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 24px;
   text-transform: uppercase;
 }
 
 .nav {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-li:last-child {
@@ -44,10 +53,6 @@ h2 {
 
 a:hover {
   color: #03a9f4;
-}
-
-header {
-  padding: 78px 0px 104px 0px;
 }
 
 /* Main */
