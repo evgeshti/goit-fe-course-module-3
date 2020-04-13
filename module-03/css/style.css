@@ -6,7 +6,7 @@ body {
 
 .container {
   width: 900px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 a {
@@ -36,7 +36,10 @@ h2 {
 
 .nav {
   text-align: center;
-  padding-left: 80px;
+}
+
+.nav-li:last-child {
+  margin-right: 0px;
 }
 
 a:hover {
@@ -82,18 +85,18 @@ header {
   font-family: "Playfair Display", serif;
 }
 
-.knopka {
+.button {
   text-align: center;
   padding-top: 54px;
   padding-bottom: 54px;
 }
 
-.knopka-load:hover {
+.button-load:hover {
   background-color: #999999;
   color: #ffffff;
 }
 
-.knopka-load {
+.button-load {
   padding: 22px 34px;
   font-family: "Playfair Display", serif;
   background-color: white;
