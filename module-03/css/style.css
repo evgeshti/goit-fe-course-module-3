@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 900px;
+  width: 904px;
   margin: 0px auto;
 }
 
@@ -35,8 +35,8 @@ h2 {
 .nav-li a {
   color: #626262;
   font-family: "Playfair Display";
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 24px;
   text-transform: uppercase;
 }
@@ -44,6 +44,7 @@ h2 {
 .nav {
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 .nav-li:last-child {
