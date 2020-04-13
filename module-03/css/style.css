@@ -6,7 +6,7 @@ body {
 
 .container {
   width: 900px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 a {
@@ -36,7 +36,10 @@ h2 {
 
 .nav {
   text-align: center;
-  padding-left: 80px;
+}
+
+.nav-li:last-child {
+  margin-right: 0px;
 }
 
 a:hover {
